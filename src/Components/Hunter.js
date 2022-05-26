@@ -22,7 +22,7 @@ function Hunter(props) {
   return (
     <>
       <div id="Home" style={{ height: 500 }}>
-        <h1 class="Title">Stick with us!!</h1>
+        <h1 className="Title">Stick with us!!</h1>
 
         <h3>We'll give you good reviews. </h3>
         <img src={image} alt="bruger" />

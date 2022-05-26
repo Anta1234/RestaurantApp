@@ -27,12 +27,13 @@ class App extends Component {
         <Hunter />
         <div className="container">
           <ul className="cards">
-            {Restaurant.Restaurants.map((Restaurant) => {
+            {Restaurant.Restaurants.map((Restaurant, index) => {
               return (
                 <Card
                   Restaurant={Restaurant}
                   name={this.state.x.name}
                   grade={this.state.x.grade}
+                  key={index}
                 />
               );
             })}
