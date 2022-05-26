@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.Title {
+  padding-top: 50px;
+  font-family: "Pacifico", cursive;
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(230, 86, 110);
+}
+
+.Title h3 {
+  text-align: center;
+}
+
+#About1 {
+  padding-top: 150px;
+  font-family: "Pacifico", cursive;
+}
+
+#About {
+  padding-top: 50px;
+}
+
+#Contact1 {
+  padding-top: 100px;
+  font-family: "Pacifico", cursive;
+}
+#Contact {
+  padding-top: 50px;
+}
+
+#Data {
+  padding-top: 50px;
+  font-family: "Pacifico", cursive;
+}
+
+#RestaurantReviews1 {
+  font-family: "Pacifico", cursive;
+  padding-top: 200px;
+}
+
+#RestaurantReviews {
+  padding-top: -100px;
+}

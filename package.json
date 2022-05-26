@@ -1,0 +1,35 @@
+{
+  "name": "react-template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-spring/parallax": "9.4.4",
+    "plotly.js": "2.12.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-native": "0.68.2",
+    "react-plotly.js": "2.5.1",
+    "react-scoll": "1.1.0",
+    "react-scripts": "^1.1.5",
+    "react-scroll": "1.8.6",
+    "smoothscroll-polyfill": "0.4.4",
+    "victory": "36.3.2"
+  },
+  "scripts": {
+    "start": "PORT=8000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
