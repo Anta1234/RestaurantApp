@@ -16,12 +16,14 @@ import Card from "./Card";
 //}
 //});
 const test = data.filter((item) => item.boro === "Brooklyn");
-
+const styleRules = {
+  height: 500
+};
 // export default class Hunter extends Component {
 function Hunter(props) {
   return (
     <>
-      <div id="Home" style={{ height: 500 }}>
+      <div id="Home" style={{ styleRules }}>
         <h1 className="Title">Stick with us!!</h1>
 
         <h3>We'll give you good reviews. </h3>
