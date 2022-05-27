@@ -55,17 +55,12 @@ function Hunter(props) {
         <h3>Apple Bees 1 (888) 592-7753</h3>
       </div>
       <div id="Data" style={{ height: 500 }}>
-        <h1>Data visiualization</h1>
+        <h1>Data visualization</h1>
         <Product />
       </div>
-      <div id="RestaurantReviews1" style={{ height: 80 }}>
+      <div id="RestaurantReviews1" style={{ height: 80 }}></div>
+      <div id="RestaurantReviews" style={{ height: 1 }}>
         <h1>Restaurant Reviews</h1>
-      </div>
-      <div id="RestaurantReviews" style={{ height: 500 }}>
-        <h3>Maisons pickle 4.5 out of 5</h3>
-        <h3>TGI Friday 3.0 out of 5</h3>
-        <h3>Hard Rock Cafe 1 out of 5</h3>
-        <h3> The Kunjip Korean BBQ 5 out of 5</h3>
       </div>
     </>
   );
