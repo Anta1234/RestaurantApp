@@ -16,10 +16,15 @@ function Product() {
     },
     {
       category: "B",
-      values: [45, 121, 76, 12, 98],
-      types: ["f", "g", "h", "i", "j"]
-    },
-    { category: "B2", values: [84, 23, 54, 51], types: ["k", "l", "m", "n"] }
+      values: [42, 17, 12, 17, 10],
+      types: [
+        "EL SAZON DE OLGA RESTAURANT",
+        "FORDHAM RESTAURANT",
+        "FINIX CAFE & JUICE BAR",
+        "DELFINI",
+        "CARIBE RESTAURANT"
+      ]
+    }
   ];
 
   const [data, setData] = useState([]);
@@ -40,9 +45,6 @@ function Product() {
         </button>
         <button onClick={handleClick} id="B">
           Bronx
-        </button>
-        <button onClick={handleClick} id="B2">
-          Bronx2
         </button>
       </div>
       <Plot
